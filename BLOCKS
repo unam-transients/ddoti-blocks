@@ -34,7 +34,7 @@ load b 1 0004-focus-*
 load x 1 0001-twilight-flats-evening-0
 load y 1 0002-biases-0
 load z 1 0003-darks-0
-load z 1 0013-signal-chain
+load z 1 0013-signal-chain-*
 
 # h 3 2003-gonzalez-0     date 20220218
 # i3 1 2004-becerra-0
