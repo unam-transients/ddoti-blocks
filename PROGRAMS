@@ -1,0 +1,32 @@
+DDOTI Program Identifiers
+
+0001 twilight flats
+0002 biases
+0003 darks
+0004 focusing
+0005 SDSS standards
+0006 dome flats
+0007 donuts
+0008 pointing model
+0009 full focus
+0010 map focus
+0011 sky brightness
+0012 focus for specific targets
+0013 focus tilt
+0014 apertures
+0015 reference image tests
+0016 tracking tests
+
+1000 Miscellaneous alerts
+1001 Swift GRBs
+1002 Fermi GRBs
+1003 GW events
+1004 HAWC events
+1005 IceCube events
+
+2021A-2001 Román - YSOs
+
+2019A-2000 Gómez Maqueo - Hot Jupiters
+2019A-2001 Parrot - Asteroids
+
+3000 All-Sky Imaging
