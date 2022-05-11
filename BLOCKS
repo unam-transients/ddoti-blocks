@@ -36,8 +36,7 @@ load y 1 0002-biases-0
 load z 1 0003-darks-0
 load z 1 0013-signal-chain-*
 
+load z 1 0010-focus-map-*
+
 # h 3 2003-gonzalez-0     date 20220218
 # i3 1 2004-becerra-0
-
-unload f 1 2001-costero-0
-unload g 1 2000-fast-guiding-0 day 0 2

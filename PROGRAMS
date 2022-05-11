@@ -7,9 +7,9 @@ DDOTI Program Identifiers
 0005 SDSS standards
 0006 dome flats
 0007 donuts
-0008 pointing model
+0008 pointing map
 0009 full focus
-0010 map focus
+0010 focus map
 0011 sky brightness
 0012 focus for specific targets
 0013 focus tilt
