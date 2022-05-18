@@ -1,7 +1,7 @@
 {
   "project": {
     "identifier": "0013",
-    "name": "signal chain (evening biases)"
+    "name": "signal chain (morning)"
   },
   "identifier": "0",
   "visits": [
@@ -15,12 +15,23 @@
       },
       "command": "biasesvisit",
       "estimatedduration": "5m"
+    },
+    {
+      "identifier": "0",
+      "name": "flats",
+      "targetcoordinates": {
+        "type": "fixed",
+        "ha": "0h",
+        "delta": "+45d"
+      },
+      "command": "domeflatsvisit",
+      "estimatedduration": "5m"
     }
   ],
   "constraints": {
     "minmoondistance": "0d",
-    "maxskybrightness": "nauticaltwilight",
-    "minskybrightness": "nauticaltwilight",
-    "minsunha": "0"
+    "maxskybrightness": "civiltwilight",
+    "minskybrightness": "civiltwilight",
+    "maxsunha": "0"
   }
 }

@@ -1,7 +1,7 @@
 {
   "project": {
     "identifier": "0013",
-    "name": "signal chain (evening flats)"
+    "name": "signal chain (evening)"
   },
   "identifier": "0",
   "visits": [
@@ -14,6 +14,17 @@
         "delta": "+45d"
       },
       "command": "domeflatsvisit",
+      "estimatedduration": "5m"
+    },
+    {
+      "identifier": "1",
+      "name": "biases",
+      "targetcoordinates": {
+        "type": "fixed",
+        "ha": "0h",
+        "delta": "+45d"
+      },
+      "command": "biasesvisit",
       "estimatedduration": "5m"
     }
   ],
