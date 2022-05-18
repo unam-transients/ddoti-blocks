@@ -29,9 +29,7 @@
     }
   ],
   "constraints": {
-    "minmoondistance": "0d",
-    "maxskybrightness": "civiltwilight",
-    "minskybrightness": "civiltwilight",
-    "maxsunha": "0"
+    // Never select.
+    "minskybrightness": "daylight",
   }
 }
