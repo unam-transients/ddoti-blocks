@@ -1,6 +1,6 @@
 #!/bin/sh
 
-rm -f 0008-pointing-map-*.json
+rm -f 0010-focus-map-*.json
 
 if test "$1" = "clean"
 then
