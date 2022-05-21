@@ -69,7 +69,7 @@ do
       "identifier": "0",
       "name": "pointing map",
       "targetcoordinates": {
-        "type"   : "fixed",
+        "type"   : "equatorial",
         "ha"     : "$ha",
         "delta"  : "$delta",
         "equinox": "2000"

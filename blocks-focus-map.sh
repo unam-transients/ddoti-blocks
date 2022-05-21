@@ -69,7 +69,7 @@ do
       "identifier": "0",
       "name": "focus map at +1h +45d",
       "targetcoordinates": {
-        "type"   : "fixed",
+        "type"   : "equatorial",
         "ha"     : "+1h",
         "delta"  : "45d",
         "equinox": "2000"
@@ -81,7 +81,7 @@ do
       "identifier": "1",
       "name": "focus map at $ha $delta",
       "targetcoordinates": {
-        "type"   : "fixed",
+        "type"   : "equatorial",
         "ha"     : "$ha",
         "delta"  : "$delta",
         "equinox": "2000"
