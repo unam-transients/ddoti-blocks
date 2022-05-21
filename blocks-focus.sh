@@ -39,7 +39,7 @@ do
       "identifier": "1",
       "name": "initial pointing correction near +1h +45d",
       "targetcoordinates": {
-        "type"   : "fixed",
+        "type"   : "equatorial",
         "ha"     : "+1h",
         "delta"  : "+45d"
       },
@@ -50,7 +50,7 @@ do
       "identifier": "2",
       "name": "initial pointing correction near -1h +45d",
       "targetcoordinates": {
-        "type"   : "fixed",
+        "type"   : "equatorial",
         "ha"     : "-1h",
         "delta"  : "+45d"
       },
