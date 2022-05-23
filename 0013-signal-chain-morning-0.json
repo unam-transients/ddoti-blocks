@@ -30,6 +30,6 @@
   ],
   "constraints": {
     // Never select.
-    "minskybrightness": "daylight",
+    "minskybrightness": "daylight"
   }
 }
