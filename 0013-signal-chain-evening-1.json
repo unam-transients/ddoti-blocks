@@ -17,7 +17,7 @@
       "estimatedduration": "5m"
     },
     {
-      "identifier": "1",
+      "identifier": "0",
       "name": "biases",
       "targetcoordinates": {
         "type": "fixed",
