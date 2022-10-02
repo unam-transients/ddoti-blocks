@@ -67,14 +67,14 @@ do
   "visits": [
     {
       "identifier": "0",
-      "name": "focus map at +1h +45d",
+      "name": "focus reference at +1h +45d",
       "targetcoordinates": {
         "type"   : "equatorial",
         "ha"     : "+1h",
         "delta"  : "45d",
         "equinox": "2000"
       },
-      "command": "focusvisit",
+      "command": "focusmapvisit",
       "estimatedduration": "10m"
     },
     {
@@ -86,7 +86,7 @@ do
         "delta"  : "$delta",
         "equinox": "2000"
       },
-      "command": "focusvisit",
+      "command": "focusmapvisit",
       "estimatedduration": "10m"
     }
   ],
