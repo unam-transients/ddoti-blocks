@@ -48,7 +48,7 @@ BEGIN {
     iha += 1;
     for (delta = startdelta; delta < 90; delta += ddelta) {
       z = zenithdistance(ha, delta)
-      if (z < 85)
+      if (z < 60)
         printf("%04d %+.1fd %+.1fd %.1fd\n", blockid++, ha, delta, z);
     }
   }
