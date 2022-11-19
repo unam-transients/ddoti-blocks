@@ -1,0 +1,50 @@
+{
+  "project": {
+    "identifier": "2001",
+    "name": "satellites"
+  },
+  "identifier": "0",
+  "name": "BW3",
+  "visits": [
+    {
+      "identifier": "0",
+      "name": "BW3",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "alpha"  : "11:00:43.97",
+        "delta"  : "-06:18:45.29",
+        "equinox": "2000"
+      },
+      // The date here should the time to open the shutter.
+      "command": "satellitevisit 2022-11-19T02:29:36 6 6",
+      "estimatedduration": "2m"
+    },
+    {
+      "identifier": "1000",
+      "name": "darks",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "alpha"  : "11:00:43.97",
+        "delta"  : "-06:18:45.29",
+        "equinox": "2000"
+      },
+      "command": "darksvisit 10 6",
+      "estimatedduration": "2m"
+    },
+  ],
+  "constraints": {
+    "maxskybrightness": "civiltwilight",
+    // The date here should be 5 minutes before the event.
+    "mindate": "2022-11-19T02:24:00"
+  },
+  "persistent": "false"
+}
+
+// BLUEWALKER 3-ID-6498
+// Date (UT): 2022-11-15
+// Time (UT): 12:05:33
+// Azimuth: 123.119
+// Elevation: 33.015
+// RA (J2000): 11:00:43.97
+// DEC (J2000): -06:18:45.29
+// Angular Velocity: 1178.294 arcsec / s

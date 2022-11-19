@@ -1,0 +1,26 @@
+{
+  "project": {
+    "identifier": "2001",
+    "name": "satellites"
+  },
+  "identifier": "1001",
+  "name": "focusing",
+  "visits": [
+    {
+      "identifier": "1000",
+      "name": "focus",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "ha"     : "+33d",
+        "delta"  : "+0d",
+        "equinox": "2000"
+      },
+      "command": "finefocus",
+      "estimatedduration": "1m"
+    }
+  ],
+  "constraints": {
+    "maxskybrightness": "civiltwilight"
+  },
+  "persistent": "false"
+}
