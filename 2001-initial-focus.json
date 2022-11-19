@@ -1,0 +1,38 @@
+{
+  "project": {
+    "identifier": "2001",
+    "name": "satellites"
+  },
+  "identifier": "1000",
+  "name": "initial focusing and pointing correction",
+  "visits": [
+    {
+      "identifier": "1000",
+      "name": "initial focusing",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "ha"     : "+33d",
+        "delta"  : "+0d",
+        "equinox": "2000"
+      },
+      "command": "initialfocusvisit",
+      "estimatedduration": "10m"
+    },
+    {
+      "identifier": "1001",
+      "name": "pointing correction",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "ha"     : "+33d",
+        "delta"  : "+0d",
+        "equinox": "2000"
+      },
+      "command": "correctpointingvisit",
+      "estimatedduration": "1m"
+    }
+  ],
+  "constraints": {
+    "maxskybrightness": "civiltwilight"
+  },
+  "persistent": "false"
+}
