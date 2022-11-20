@@ -11,8 +11,8 @@
       "name": "initial focusing",
       "targetcoordinates": {
         "type"   : "equatorial",
-        "ha"     : "+33d",
-        "delta"  : "+0d",
+        "ha"     : "+25d",
+        "delta"  : "+41d",
         "equinox": "2000"
       },
       "command": "initialfocusvisit",
@@ -23,8 +23,8 @@
       "name": "pointing correction",
       "targetcoordinates": {
         "type"   : "equatorial",
-        "ha"     : "+33d",
-        "delta"  : "+0d",
+        "ha"     : "+25d",
+        "delta"  : "+41d",
         "equinox": "2000"
       },
       "command": "correctpointingvisit",

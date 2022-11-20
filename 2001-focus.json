@@ -11,11 +11,11 @@
       "name": "focus",
       "targetcoordinates": {
         "type"   : "equatorial",
-        "ha"     : "+33d",
-        "delta"  : "+0d",
+        "ha"     : "+25d",
+        "delta"  : "+41d",
         "equinox": "2000"
       },
-      "command": "finefocus",
+      "command": "finefocusvisit",
       "estimatedduration": "1m"
     }
   ],
