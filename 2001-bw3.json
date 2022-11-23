@@ -11,22 +11,43 @@
       "name": "BW3",
       "targetcoordinates": {
         "type"   : "equatorial",
-        "alpha"  : "21:23:12.28",
-        "delta"  : "+41:11:51.07",
+        "alpha"  : "00:09:11.20",
+        "delta"  : "+78:35:15.22",
         "equinox": "2000"
       },
       // The date here should the time to open the shutter.
-      "command": "satellitevisit 2022-11-20T02:12:27 6 4",
+      "command": "satellitevisit 2022-11-23T01:18:42.5 6 4",
       "estimatedduration": "2m"
     }
   ],
   "constraints": {
     "maxskybrightness": "civiltwilight",
-    // The date here should be 5 minutes before the event.
-    "mindate": "2022-11-20T02:07:00"
+    // The date here should be about 5 minutes before the pass.
+    "mindate": "2022-11-23T01:13:42"
   },
   "persistent": "false"
 }
+
+// Date (UT): 2022-11-23
+// Time (UT): 01:18:43
+// Azimuth: 8.699
+// Elevation: 39.841
+// RA (J2000): 00:09:11.20
+// DEC (J2000): +78:35:15.22
+
+// Date (UT): 2022-11-22
+// Time (UT): 01:35:53
+// Azimuth: 312.815
+// Elevation: 61.136
+// RA (J2000): 19:51:59.10
+// DEC (J2000): +47:02:38.20
+
+// Date (UT): 2022-11-21
+// Time (UT): 01:54:11
+// Azimuth: 313.587
+// Elevation: 67.151
+// RA (J2000): 20:38:19.03
+// DEC (J2000): +44:42:12.10
 
 // Date (UT): 2022-11-20
 // Time (UT): 02:12:28
