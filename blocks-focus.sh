@@ -37,6 +37,18 @@ do
     },
     {
       "identifier": "1",
+      "name": "focusing near $alpha $delta",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "alpha"  : "$alpha",
+        "delta"  : "$delta",
+        "equinox": "2000"
+      },
+      "command": "focusvisit",
+      "estimatedduration": "10m"
+    },
+    {
+      "identifier": "2",
       "name": "initial pointing correction near +1h +45d",
       "targetcoordinates": {
         "type"   : "equatorial",
@@ -47,7 +59,7 @@ do
       "estimatedduration": "1m"
     },
     {
-      "identifier": "2",
+      "identifier": "3",
       "name": "initial pointing correction near -1h +45d",
       "targetcoordinates": {
         "type"   : "equatorial",
