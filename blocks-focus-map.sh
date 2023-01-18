@@ -37,8 +37,8 @@ function zenithdistance(ha, delta) {
   return radtodeg(z);
 }
 BEGIN {
-  dha = 20;
-  ddelta = 20;
+  dha = 30;
+  ddelta = 30;
   blockid = 0;
   iha = 0;
   for (ha = -180 + 0.5 * dha; ha < 180; ha += dha) {
@@ -48,14 +48,15 @@ BEGIN {
     iha += 1;
     for (delta = startdelta; delta < 90; delta += ddelta) {
       z = zenithdistance(ha, delta)
-      if (z < 45)
+      if (z < 60)
         printf("%04d %+.1fd %+.1fd %.1fd\n", blockid++, ha, delta, z);
     }
   }
 }
 ' |
-while read blockid ha delta z
+while read blockid ha delta z 
 do
+    #echo $z $blockid $ha $delta
     cat >0010-focus-map-$blockid.json <<EOF
 {
   "project": {
@@ -96,4 +97,5 @@ do
   }
 }
 EOF
-done
+done | sort -n
+
