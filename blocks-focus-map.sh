@@ -37,8 +37,8 @@ function zenithdistance(ha, delta) {
   return radtodeg(z);
 }
 BEGIN {
-  dha = 30;
-  ddelta = 30;
+  dha = 20;
+  ddelta = 20;
   blockid = 0;
   iha = 0;
   for (ha = -180 + 0.5 * dha; ha < 180; ha += dha) {
