@@ -37,14 +37,14 @@ do
     },
     {
       "identifier": "1",
-      "name": "focusing near $alpha $delta",
+      "name": "focus witness near $alpha $delta",
       "targetcoordinates": {
         "type"   : "equatorial",
         "alpha"  : "$alpha",
         "delta"  : "$delta",
         "equinox": "2000"
       },
-      "command": "focusvisit",
+      "command": "focuswitnessvisit",
       "estimatedduration": "10m"
     },
     {
@@ -100,6 +100,18 @@ EOF
         "equinox": "2000"
       },
       "command": "focusvisit",
+      "estimatedduration": "10m"
+    },
+    {
+      "identifier": "1",
+      "name": "focus witness near $alpha $delta",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "alpha"  : "$alpha",
+        "delta"  : "$delta",
+        "equinox": "2000"
+      },
+      "command": "focuswitnessvisit",
       "estimatedduration": "10m"
     }
   ],
