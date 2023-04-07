@@ -37,8 +37,8 @@ function zenithdistance(ha, delta) {
   return radtodeg(z);
 }
 BEGIN {
-  dha = 30;
-  ddelta = 30;
+  dha = 15;
+  ddelta = 15;
   blockid = 0;
   iha = 0;
   for (ha = -180 + 0.5 * dha; ha < 180; ha += dha) {
@@ -48,7 +48,7 @@ BEGIN {
     iha += 1;
     for (delta = startdelta; delta < 90; delta += ddelta) {
       z = zenithdistance(ha, delta)
-      if (z < 60)
+      if (ha != 0 && z < 45)
         printf("%04d %+.1fd %+.1fd %.1fd\n", blockid++, ha, delta, z);
     }
   }
@@ -79,8 +79,8 @@ do
       "estimatedduration": "10m"
     },
     {
-      "identifier": "1",
-      "name": "focus map at $ha $delta",
+      "identifier": "0",
+      "name": "focus at $ha $delta",
       "targetcoordinates": {
         "type"   : "equatorial",
         "ha"     : "$ha",
