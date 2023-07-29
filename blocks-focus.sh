@@ -24,7 +24,7 @@ do
   "name": "initial focusing and pointing correction",
   "visits": [
     {
-      "identifier": "0",
+      "identifier": "1000",
       "name": "initial focusing near $alpha $delta",
       "targetcoordinates": {
         "type"   : "equatorial",
@@ -57,7 +57,7 @@ EOF
   "name": "focusing",
   "visits": [
     {
-      "identifier": "0",
+      "identifier": "1001",
       "name": "focusing near $alpha $delta",
       "targetcoordinates": {
         "type"   : "equatorial",
@@ -90,7 +90,7 @@ EOF
   "name": "focusing",
   "visits": [
     {
-      "identifier": "0",
+      "identifier": "1001",
       "name": "focusing near $alpha $delta",
       "targetcoordinates": {
         "type"   : "equatorial",
@@ -102,7 +102,7 @@ EOF
       "estimatedduration": "10m"
     },
     {
-      "identifier": "1",
+      "identifier": "1002",
       "name": "full focus near $alpha $delta",
       "targetcoordinates": {
         "type"   : "equatorial",
