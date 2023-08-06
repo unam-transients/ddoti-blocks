@@ -47,6 +47,51 @@ do
 }
 EOF
 
+  cat <<EOF >0004-initial-full-focus-$suffix.json
+{
+  "project": {
+    "identifier": "0004",
+    "name": "focusing"
+  },
+  "identifier": "$blockid",
+  "name": "initial full focusing",
+  "visits": [
+    {
+      "identifier": "1000",
+      "name": "initial focusing near $alpha $delta",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "alpha"  : "$alpha",
+        "delta"  : "$delta",
+        "equinox": "2000"
+      },
+      "command": "initialfocusvisit",
+      "estimatedduration": "10m"
+    },
+    {
+      "identifier": "1002",
+      "name": "initial focusing near $alpha $delta",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "alpha"  : "$alpha",
+        "delta"  : "$delta",
+        "equinox": "2000"
+      },
+      "command": "fullfocusvisit 1000 4",
+      "estimatedduration": "10m"
+    }
+  ],
+  "constraints": {
+    "maxskybrightness": "nauticaltwilight",
+    "minha": "-2h",
+    "maxha": "+2h",
+    "minmoondistance": "30d",
+    "minfocusdelay": "1200"
+  },
+  "persistent": "true"
+}
+EOF
+
   cat <<EOF >0004-focus-$suffix.json
 {
   "project": {
@@ -102,15 +147,15 @@ EOF
       "estimatedduration": "10m"
     },
     {
-      "identifier": "1002",
       "name": "full focus near $alpha $delta",
+      "identifier": "1002",
       "targetcoordinates": {
         "type"   : "equatorial",
         "alpha"  : "$alpha",
         "delta"  : "$delta",
         "equinox": "2000"
       },
-      "command": "fullfocusvisit 2500 1 4",
+      "command": "fullfocusvisit 1000 4",
       "estimatedduration": "10m"
     }
   ],
@@ -148,6 +193,6 @@ done <<EOF
 19 19h +45d
 20 20h +45d
 21 21h +45d
-21 22h +45d
+22 22h +45d
 23 23h +45d
 EOF
