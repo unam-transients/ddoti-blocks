@@ -36,4 +36,4 @@ load y 1 0002-biases-0
 load z 1 0003-darks-0
 load z 1 0013-signal-chain-*
 
-load z 1 0010-focus-map-*
+load z 1 0010-focus-map-* day 0 7
