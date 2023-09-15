@@ -79,7 +79,7 @@ do
       "estimatedduration": "10m"
     },
     {
-      "identifier": "0",
+      "identifier": "1",
       "name": "focus at $ha $delta",
       "targetcoordinates": {
         "type"   : "equatorial",
