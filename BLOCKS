@@ -31,9 +31,11 @@
 #load a 1 0004-initial-focus-*
 load b 1 0004-focus-*
 
+load f 3 1000-S240413p-*
+
 load x 1 0001-twilight-flats-evening-0
 load y 1 0002-biases-0
 load z 1 0003-darks-0
 load z 1 0013-signal-chain-*
 
-load z 1 0010-focus-map-* day 0 7
+#load z 1 0010-focus-map-* day 0 7
