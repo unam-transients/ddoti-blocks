@@ -29,7 +29,7 @@
 # If no time specification is given, the action is carried out every day.
 
 #load a 1 0004-initial-focus-*
-load b 1 0004-focus-*
+#load b 1 0004-focus-*
 
 load f 3 1000-S240413p-*
 
