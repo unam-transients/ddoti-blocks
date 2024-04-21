@@ -40,7 +40,7 @@
         "equinox": "2000"
       },
       "command": "gridvisit 2 9 1 60",
-      "estimatedduration": "24m"
+      "estimatedduration": "60m"
     }
   ],
   "constraints": {
