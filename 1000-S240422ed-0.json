@@ -1,0 +1,52 @@
+{
+  "project": {
+    "identifier": "1000",
+    "name": "GW Alerts"
+  },
+  "identifier": "20240422213513",
+  "name": "S240422ed pointing 0",
+  "visits": [
+    {
+      "identifier": "1000",
+      "name": "focusing",
+      "targetcoordinates": {
+        "type": "equatorial",
+        "alpha": "121d",
+        "delta": "-22d",
+        "equinox": "2000"
+      },
+      "command": "focusvisit",
+      "estimatedduration": "1m"
+    },
+    {
+      "identifier": "1000",
+      "name": "correcting pointing",
+      "targetcoordinates": {
+        "type": "equatorial",
+        "alpha": "121d",
+        "delta": "-22d",
+        "equinox": "2000"
+      },
+      "command": "correctpointingvisit",
+      "estimatedduration": "1m"
+    },
+    {
+      "identifier": "0",
+      "name": "science",
+      "targetcoordinates": {
+        "type": "equatorial",
+        "alpha": "121dd",
+        "delta": "-22d",
+        "equinox": "2000"
+      },
+      "command": "gridvisit 2 9 1 60",
+      "estimatedduration": "24m"
+    }
+  ],
+  "constraints": {
+    "maxskybrightness": "nauticaltwilight",
+    "maxzenithdistance": "72d",
+    "minmoondistance": "5d"
+  },
+  "persistent": "false"
+}
