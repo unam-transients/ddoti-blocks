@@ -31,6 +31,7 @@
 #load a 1 0004-initial-focus-*
 #load b 1 0004-focus-*
 
+load e 3 1000-S240412ed-*
 load f 3 1000-S240413p-*
 
 load x 1 0001-twilight-flats-evening-0
