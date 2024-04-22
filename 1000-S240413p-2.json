@@ -12,7 +12,8 @@
       "targetcoordinates": {
         "type": "equatorial",
         "alpha": "158.741667d",
-        "delta": "+4.266667d",
+//        "delta": "+4.266667d",
+        "delta": "+6.02d",
         "equinox": "2000"
       },
       "command": "focusvisit",
@@ -24,7 +25,8 @@
       "targetcoordinates": {
         "type": "equatorial",
         "alpha": "158.741667d",
-        "delta": "+4.266667d",
+//        "delta": "+4.266667d",
+        "delta": "+6.02d",
         "equinox": "2000"
       },
       "command": "correctpointingvisit",
@@ -36,7 +38,8 @@
       "targetcoordinates": {
         "type": "equatorial",
         "alpha": "158.741667d",
-        "delta": "+4.266667d",
+//        "delta": "+4.266667d",
+        "delta": "+6.02d",
         "equinox": "2000"
       },
       "command": "gridvisit 2 9 1 60",
