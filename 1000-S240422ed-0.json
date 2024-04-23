@@ -11,8 +11,8 @@
       "name": "focusing",
       "targetcoordinates": {
         "type": "equatorial",
-        "alpha": "121d",
-        "delta": "-22d",
+        "alpha": "123.011522d",
+        "delta": "-25.179472d",
         "equinox": "2000"
       },
       "command": "focusvisit",
@@ -23,8 +23,8 @@
       "name": "correcting pointing",
       "targetcoordinates": {
         "type": "equatorial",
-        "alpha": "121d",
-        "delta": "-22d",
+        "alpha": "123.011522d",
+        "delta": "-25.179472d",
         "equinox": "2000"
       },
       "command": "correctpointingvisit",
@@ -35,8 +35,8 @@
       "name": "science",
       "targetcoordinates": {
         "type": "equatorial",
-        "alpha": "121d",
-        "delta": "-22d",
+        "alpha": "123.011522d",
+        "delta": "-25.179472d",
         "equinox": "2000"
       },
       "command": "gridvisit 2 9 1 60",
