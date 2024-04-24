@@ -37,7 +37,7 @@
       "name": "science",
       "targetcoordinates": {
         "type": "equatorial",
-        "alpha": "165.541667d
+        "alpha": "165.541667d",
 //        "delta": "+11.8666676d",
         "delta": "+13.62d",
         "equinox": "2000"
