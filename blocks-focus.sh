@@ -41,7 +41,7 @@ do
     "minha": "-2h",
     "maxha": "+2h",
     "minmoondistance": "30d",
-    "minfocusdelay": "1200"
+    "minfocusdelay": "3600"
   },
   "persistent": "true"
 }
@@ -86,7 +86,7 @@ EOF
     "minha": "-2h",
     "maxha": "+2h",
     "minmoondistance": "30d",
-    "minfocusdelay": "1200"
+    "minfocusdelay": "3600"
   },
   "persistent": "true"
 }
@@ -119,7 +119,7 @@ EOF
     "minha": "-2h",
     "maxha": "+2h",
     "minmoondistance": "30d",
-    "minfocusdelay": "900"
+    "minfocusdelay": "1800"
   },
   "persistent": "true"
 }
@@ -164,7 +164,7 @@ EOF
     "minha": "-2h",
     "maxha": "+2h",
     "minmoondistance": "30d",
-    "minfocusdelay": "900"
+    "minfocusdelay": "1200"
   },
   "persistent": "true"
 }
