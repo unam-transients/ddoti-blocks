@@ -46,18 +46,6 @@ do
     },
     {
       "identifier": "1000",
-      "name": "focusing",
-      "targetcoordinates": {
-        "type": "equatorial",
-        "alpha": "$alpha",
-        "delta": "$delta",
-        "equinox": "2000"
-      },
-      "command": "focusvisit",
-      "estimatedduration": "1m"
-    },
-    {
-      "identifier": "1000",
       "name": "correcting pointing",
       "targetcoordinates": {
         "type": "equatorial",
