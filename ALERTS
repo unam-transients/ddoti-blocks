@@ -1,22 +1,24 @@
 # The fields are:
 # 
-# 1. Priority. A letter, with a being highest priority and z being
+# 1. Priority. A number, with 0 being highest priority and 10 being
 # lowest priority.
+#
+# 2. Precedence. A letter. This is used to assign relative importance within blocks of the same priority, with blocks with precedence "a" having highest precedence and those with precedence "z" having the lowest precedence.
 # 
-# 2. Duplicates. The number of copies of the block file that are loaded
+# 3. Duplicates. The number of copies of the block file that are loaded
 # into the queue.
 # 
-# 3. Name.
-
-# 4. Block identifier. This is normally YYYYMMDDHHMMSS of the alert.
+# 4. Name.
+#
+# 5. Block identifier. This is normally YYYYMMDDHHMMSS of the alert.
 # 
-# 5. Visit identifier. An integer between 0 and 999. This should be
+# 6. Visit identifier. An integer between 0 and 999. This should be
 # unique for each pointing.
 # 
-# 6. Alpha. HH:MM:SS.SS or decimal degrees (a number followed by the
+# 7. Alpha. HH:MM:SS.SS or decimal degrees (a number followed by the
 # letter d).
 # 
-# 7. Delta. DD:MM:SS.S or decimal degrees (a number followed by the
+# 8. Delta. DD:MM:SS.S or decimal degrees (a number followed by the
 # letter d).
 
 # Information of the log of observations for O4B: https://docs.google.com/spreadsheets/d/1OtyRfVsEPhCqBO8_HXHPEEQP2XJgUdMmCuUPPC_vh8c/edit?gid=0#gid=0
@@ -31,18 +33,18 @@
 #f 3 S250114ax 20250114082203 6 136d +16.5d
 #d 3 S250114ax 20250114082203 7 131d +6.8d
 
-e 3 S250119cv 20250119190254 0 16.4d +25.7d
+10 e 3 S250119cv 20250119190254 0 16.4d +25.7d
 
 #g 3 S250205bk 20250205103558 0 137.7d -8.0d
 #g 3 S250205bk 20250205103558 1 144.2d +0.2d
 
-d 3 S250206dm 20250206212544 0 147.4d -16.3d
-#d 3 S250206dm 20250206212544 1 351d +26d
-d 3 S250206dm 20250206212544 2 356d +33d
-d 3 S250206dm 20250206212544 3 4d +39d
-d 3 S250206dm 20250206212544 4 13d +44d
-d 3 S250206dm 20250206212544 5 159d -30d
-d 3 S250206dm 20250206212544 6 154.5d -21d
-#d 3 S250206dm 20250206212544 7 151d -10d
-#d 3 S250206dm 20250206212544 8 145d +0d
+4 d 3 S250206dm 20250206212544 0 147.4d -16.3d
+#4 d 3 S250206dm 20250206212544 1 351d +26d
+4 d 3 S250206dm 20250206212544 2 356d +33d
+4 d 3 S250206dm 20250206212544 3 4d +39d
+4 d 3 S250206dm 20250206212544 4 13d +44d
+4 d 3 S250206dm 20250206212544 5 159d -30d
+4 d 3 S250206dm 20250206212544 6 154.5d -21d
+#4 d 3 S250206dm 20250206212544 7 151d -10d
+#4 d 3 S250206dm 20250206212544 8 145d +0d
 
