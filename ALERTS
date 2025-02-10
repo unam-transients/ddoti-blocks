@@ -1,16 +1,34 @@
-# The fields are:
-# 
-# 1. Priority. A number, with 0 being highest priority and 10 being
-# lowest priority.
+# TARGETS
 #
-# 2. Precedence. A letter. This is used to assign relative importance within blocks of the same priority, with blocks with precedence "a" having highest precedence and those with precedence "z" having the lowest precedence.
+# This file specifies targets to observe. At 00:00 UTC, these targets
+# are automatically loaded into the block pool.
+#
+# Lines that begin with # are ignored.
+#
+# For targets, the fields are:
 # 
-# 3. Duplicates. The number of copies of the block file that are loaded
+# 1. Priority from 1 to 10, with 1 being highest priority and 10 being
+# lowest priority. Priority 0 is reserved for focus blocks. As a guide,
+# automatic alerts are generated with the following priorities:
+#
+#   2 = multi-messenger
+#   3 = LVC
+#   5 = Fermi/LAT
+#   6 = Fermi/GBM SGRB
+#   7 = SVOM/ECL, SVOM/MXT, and SVOM/VT (but we don't currently get SVOM alerts)
+#   8 = Swift
+#   10 = everything else
+#
+# 2. Subpriority from a to z. a is highest and z is lowest subpriority.
+# This is used to assign relative importance within blocks of the same
+# priority.
+# 
+# 3. Repeats. The number of copies of the block file that are loaded
 # into the queue.
 # 
 # 4. Name.
 #
-# 5. Block identifier. This is normally YYYYMMDDHHMMSS of the alert.
+# 5. Block identifier. This is normally the YYYYMMDDHHMMSS of the alert.
 # 
 # 6. Visit identifier. An integer between 0 and 999. This should be
 # unique for each pointing.
