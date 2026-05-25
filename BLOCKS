@@ -1,4 +1,4 @@
-# COATLI/OAN Blocks
+# DDOTI/OAN Blocks
 #
 # This file defines the blocks that are loaded or unloaded.
 #
@@ -29,6 +29,7 @@
 # If no time specification is given, the action is carried out every day.
 
 load a 1 0004-initial-focus-*
+load b 1 0004-full-focus-*
 load x 1 0001-twilight-flats-evening-0
 load y 1 0002-biases-0
 load z 1 0003-darks-0
